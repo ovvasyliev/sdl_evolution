@@ -65,4 +65,3 @@ No impact for existing code.
 ## Alternatives considered
 
 As alternate approach - some of cloud CI system can be used (i.e. TravisCI). But this is not valid approach due to lack of configuration options and low flexibility of this systems.  
-
