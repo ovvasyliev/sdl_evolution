@@ -1,6 +1,6 @@
 # Continious Integration documentation update
 
-* Proposal: [SDL-0046](0046-ci_documentation_update.md)
+* Proposal: [SDL-NNNN](NNNN-ci_documentation_update.md)
 * Author: [Alexander Vasilyev](https://github.com/ovvasyliev)
 * Status: **Awaiting review**
 * Impacted Platforms: [CI]
@@ -18,41 +18,46 @@ Most common problem for complicated systems is missconfiguration in case of disa
 
 Create full and comprehencive documentation for existing CI system. Table of content can be found below.
 
-CI Purpose
-Glossary
-CI Installation
-	Environment preparation
-	Jenkins setup and run
-	Support conteiners starting
-	Jenkins required plugins listing
-	Jenkins global variables and plugins setup
-	Jenkins jobs setup
-		Generic branch builds structure
-		Generic OpenSDL job
-		Generic ATF job
-		On demand jobs
-		Support scripts list
-	CI backup&restore procedure
-	Jenkins version upgrade procedure
-CI generic workflow
-Tools
-	Unit Tests
-	ATF
-Build Artifacts
-	OpenSDL binaries
-	Junit reports
-	ATF HTML report
-	Job logs
-	Error logs
-	OpenSDL logs
-	ATF Logs
-	Static code analysis report
-	Coverage reports
-	Jobs Description
-	Jobs Listing
-	CI Jobs details
-User Scenarios
-	New job request
+* CI Purpose
+* Glossary
+* CI Installation
+ * Environment preparation
+ * Jenkins setup and run
+ * Support conteiners starting
+ * Jenkins required plugins listing
+ * Jenkins global variables and plugins setup
+ * Jenkins jobs setup
+  * Generic branch builds structure
+  * Generic OpenSDL job
+  * Generic ATF job
+  * On demand jobs
+  * Support scripts list
+ * CI backup&restore procedure
+ * Jenkins version upgrade procedure
+ * CI generic workflow
+ * Tools
+  * Unit Tests
+  * ATF
+ * Build Artifacts
+  * OpenSDL binaries
+  * Junit reports
+  * ATF HTML report
+  * Job logs
+  * Error logs
+  * OpenSDL logs
+  * ATF Logs
+  * Static code analysis report
+  * Coverage reports
+  * Jobs Description
+  * Jobs Listing
+  * CI Jobs details
+ * User Scenarios
+  * New job request
+
+For efficient maintain of CI system - separate GitHub repository should be created. It will hold all documentation, configurations, support scripts etc.
+Any issue or proposal regarding this documentation should be proposed via GitHub issues in CI repository.
+
+Well written documentation will reduce risks in maintainance and deployment of CI system. Also it will allow to understand internall processes and build workflows for all community members and contributors. Good documentation can lead to improvement of existing CI system by cler descriptions of it's structure and potential weak places.
 
 ## Potential downsides
 
