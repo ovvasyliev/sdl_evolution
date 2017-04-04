@@ -7,7 +7,7 @@
 
 ## Introduction
 
-Software development requiers fast and bugs free code creation. It can be achived only by using some kind of Continious Integration system which guarantee the same workflow and build environment for every build from every developer. It gets even more valuable in open source projects - every contributor must be sure his commit will not broke entire product. OpenSDL project using Continious Integration system based on Jenkins. CI allows to execute builds in fast and simultaneous environment. And to perform all required checks on every pull request, commit to a branch, etc, provide clear and visible status reports. 
+Software development requiers fast and bugs free code creation. It can be achived only by using of Continious Integration system which guarantee the same workflow and build environment for every build from every developer. It gets even more valuable in open source projects - every contributor must be sure his commit will not broke entire product. OpenSDL project using Continious Integration system based on Jenkins. CI allows to execute builds in fast and simultaneous environment. And to perform all required checks on every pull request, commit to a branch, etc, provide clear and visible status reports. 
 Each system should be supported and keeping in working condition. To make support proccess easier - documentation should be created.
 
 ## Motivation
@@ -21,43 +21,43 @@ Create full and comprehencive documentation for existing CI system. Table of con
 * CI Purpose
 * Glossary
 * CI Installation
- * Environment preparation
- * Jenkins setup and run
- * Support conteiners starting
- * Jenkins required plugins listing
- * Jenkins global variables and plugins setup
- * Jenkins jobs setup
-  * Generic branch builds structure
-  * Generic OpenSDL job
-  * Generic ATF job
-  * On demand jobs
-  * Support scripts list
- * CI backup&restore procedure
- * Jenkins version upgrade procedure
+     * Environment preparation
+     * Jenkins setup and run
+     * Support conteiners starting
+     * Jenkins required plugins listing
+     * Jenkins global variables and plugins setup
+     * Jenkins jobs setup
+         * Generic branch builds structure
+         * Generic OpenSDL job
+         * Generic ATF job
+         * On demand jobs
+         * Support scripts list
+     * CI backup&restore procedure
+     * Jenkins version upgrade procedure
  * CI generic workflow
  * Tools
-  * Unit Tests
-  * ATF
+     * Unit Tests
+     * ATF
  * Build Artifacts
-  * OpenSDL binaries
-  * Junit reports
-  * ATF HTML report
-  * Job logs
-  * Error logs
-  * OpenSDL logs
-  * ATF Logs
-  * Static code analysis report
-  * Coverage reports
-  * Jobs Description
-  * Jobs Listing
-  * CI Jobs details
+     * OpenSDL binaries
+     * Junit reports
+     * ATF HTML report
+     * Job logs
+     * Error logs
+     * OpenSDL logs
+     * ATF Logs
+     * Static code analysis report
+     * Coverage reports
+ * Jobs Description
+ * Jobs Listing
+     * CI Jobs details
  * User Scenarios
-  * New job request
+     * New job request
 
 For efficient maintain of CI system - separate GitHub repository should be created. It will hold all documentation, configurations, support scripts etc.
 Any issue or proposal regarding this documentation should be proposed via GitHub issues in CI repository.
 
-Well written documentation will reduce risks in maintainance and deployment of CI system. Also it will allow to understand internall processes and build workflows for all community members and contributors. Good documentation can lead to improvement of existing CI system by cler descriptions of it's structure and potential weak places.
+Well written documentation will reduce risks in maintainance and deployment of CI system. Also it will allow to understand internall processes and build workflows for all community members and contributors. Contributors will faster get information where to find results of their pull requests. Good documentation can lead to improvement of existing CI system by cler descriptions of it's structure and potential weak places.
 
 ## Potential downsides
 
